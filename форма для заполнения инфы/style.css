@@ -1,0 +1,66 @@
+
+html{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+body{
+	background-color:#1b1b32;
+	width: 60%;
+	height: 1000px;
+	color: #fff;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+#name-label{
+	width: 98.3%;
+}
+#email-label{
+	width: 98.3%;
+}
+#number-label{
+	width: 98.3%;
+}
+form{
+	width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+fieldset{
+	border: none
+	;
+	padding: 0 0 0.5rem 0;
+}
+
+label{
+	display: block;
+	padding: 5px;
+}
+.inline{
+	width: unset;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+}
+input,
+textarea,
+select {
+	margin: 4px 0 0 0;
+	width: 100%;
+  min-height: 1.2em;
+}
+input[type="submit"]{
+	display: block;
+	width: 50%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1rem;
+	min-width: none;
+}
